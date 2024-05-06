@@ -12,6 +12,6 @@ describe("group", () => {
     render(<Greet />);
     const button = screen.getByRole("button");
     expect(button).toBeInTheDocument();
-    expect(button).toHaveTextContent(/edit/i);
+    expect(button).toHaveTextContent(/login/i);
   });
 });
